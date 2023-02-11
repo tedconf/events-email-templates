@@ -1,0 +1,106 @@
+<mjml>
+  <mj-head>
+    <mj-include path="../global_styles.mjml" />
+  </mj-head>
+  <mj-body mj-class="bg-white">
+    <mj-include path="./tw2023_header.mjml" />
+
+    <!-- Body  -->
+    <mj-section>
+      <mj-column>
+        <mj-text>Dear *|FIRST_NAME|*,</mj-text>
+
+        <mj-text>
+          <span mc:edit="2_ct_confirm_opener">
+            This email confirms your *|CANDIDATE TYPE|* registration for
+            TEDWomen 2023. Thank you for joining us! We're looking forward to
+            seeing you in Atlanta, Georgia, October 11–13, 2023.
+          </span>
+        </mj-text>
+
+        <mj-text>
+          <span mc:edit="2_ct_block_time">
+            Plan to arrive late morning on Wednesday (October 11) to join one of
+            our workshops or experiences. The first speaker session kicks off in
+            the early evening followed by our welcome party. The conference
+            closes on Friday with a speaker program in the morning followed by a
+            farewell lunch.
+          </span>
+        </mj-text>
+
+        <mj-text mj-class="h3">Next steps:</mj-text>
+
+        <mj-text>
+          <ul>
+            <li>
+              <span style="font-weight: 600">Book your hotel.</span>
+              <span mc:edit="2_ct_book_hotel">
+                Take advantage of TED’s group rate at our partner hotels; all a
+                short walk from the conference venue. Rooms are limited and
+                first come first served.
+                <a
+                  href="https://www.ted.com/dashboard/conferences/tedwomen2023/hotels"
+                >
+                  Reserve your hotel now</a
+                >.
+              </span>
+            </li>
+            <li>
+              <span style="font-weight: 600">See your next steps.</span>
+              <span mc:edit="2_ct_dashboard">
+                Your conference dashboard links to everything you need to know
+                to prepare for TEDWomen. Log in with *|EMAIL|*.
+                <a href="https://www.ted.com/dashboard/conferences/tedwomen2023"
+                  >View your conference dashboard</a
+                >.
+              </span>
+            </li>
+            <li>
+              <span style="font-weight: 600">Review TED policies</span>
+              <span mc:edit="2_ct_review_policies">
+                For easy access, here are links to the
+                <a
+                  href="https://www.ted.com/attend/conferences/registration-policies#h2--tedwomen-conference-registration-policies"
+                  >conference registration policies</a
+                >
+                including health and safety precautions, and
+                <a
+                  href="https://www.ted.com/attend/conferences/registration-policies/code-of-conduct"
+                  >TED's code of conduct</a
+                >
+                (which you agreed to during registration).
+              </span>
+            </li>
+            <li>
+              <span style="font-weight: 600">Add us to your contact list.</span>
+              <span mc:edit="2_ct_add_contact">
+                You'll receive important TEDWomen updates by email so take a
+                minute to add conferences@ted.com to your contacts so you never
+                miss the latest news.
+              </span>
+            </li>
+          </ul>
+        </mj-text>
+
+        <mj-text>
+          <span mc:edit="2_ct_contact_us">
+            Questions? Send a note to
+            <a href="mailto:conferences@ted.com">conferences@ted.com</a>.
+          </span>
+        </mj-text>
+        <mj-text>
+          <span mc:edit="2_ct_sign_off">
+            We look forward to welcoming you to Atlanta for TEDWomen 2023!
+          </span>
+        </mj-text>
+        <mj-text mj-class="py0">
+          <span mc:edit="2_ct_signature">Very best wishes,</span>
+        </mj-text>
+        <mj-text mj-class="py0 bold">The TED Team</mj-text>
+        <mj-divider padding-top="32px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="../global_footer.mjml" />
+  </mj-body>
+</mjml>

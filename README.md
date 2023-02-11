@@ -21,3 +21,11 @@ Additionally, you can use the MJML command line tool to watch your `.mjml` file 
 `mjml -w [input.mjml] -o [output.html]`
 
 Then feel free to open the output file in your browser of choice, though you will need to refresh to see changes.
+
+### Imports
+
+This is currently setup to store global styles in `global_styles.mjml` and a global basic TED Footer in `global_footer.mjml`. Because the header changes based on the event, we have a separate `[event]_header.mjml` in each event directory. This saves copy/pasting into each and every template and support better consistency. Use `<mj-include path="[FILE_PATH]">` to import reusable code into a template.
+
+### Editable Content
+
+Much of the copy in these emails needs to be editable via Mailchip/Mandrill's templating logic, which is handled by adding `mc:edit="[property_name]"` to an HTML tag. Because MJML custom tags such as `<mj-text>` don't support the `mc:edit` property, the best solution is to wrap all editable text in a `<span>` tag with the necessary custom properties.

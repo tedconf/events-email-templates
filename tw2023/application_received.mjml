@@ -1,0 +1,67 @@
+<mjml>
+  <mj-head>
+    <mj-include path="../global_styles.mjml" />
+  </mj-head>
+  <mj-body mj-class="bg-white">
+    <mj-include path="./tw2023_header.mjml" />
+
+    <!-- Body  -->
+    <mj-section>
+      <mj-column>
+        <mj-text>Dear *|FIRST_NAME|*,</mj-text>
+
+        <mj-text>
+          Thank you for your application to attend *|EVENT_TITLE|*. Over the
+          weeks to come, your application will be reviewed (we read every
+          application thoroughly), and we'll be in touch if we require
+          additional information from you.
+        </mj-text>
+
+        <mj-text>
+          We will email to let you know if you've been accepted. You can expect
+          to hear back from us with plenty of time to plan.
+        </mj-text>
+
+        <mj-text mj-class="h3">Special note</mj-text>
+
+        <mj-text>
+          By submitting this application, you've agreed to our registration
+          policies. These include:
+        </mj-text>
+
+        <mj-text>
+          <ul>
+            <li>
+              If your application is approved we'll send you an email. You'll
+              have 48 hours to update your payment details or withdraw your
+              application (in which case, your card will not be charged). If no
+              changes are made within that 48 hour period, your registration
+              will be confirmed and your credit card/bank account will be
+              charged.
+            </li>
+            <li>
+              Once you're registered, no refunds or carryovers are allowed.
+            </li>
+          </ul>
+        </mj-text>
+
+        <mj-text>
+          You can view the status of your application on your
+          <a href="https://www.ted.com/dashboard/conferences">TED.com profile</a
+          >.
+        </mj-text>
+
+        <mj-text>
+          Questions? Contact us at
+          <a href="mailto:conferences@ted.com">conferences@ted.com</a>.</mj-text
+        >
+
+        <mj-text mj-class="py0">With best wishes,</mj-text>
+        <mj-text mj-class="py0 bold">The TED Team</mj-text>
+        <mj-divider padding-top="32px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="../global_footer.mjml" />
+  </mj-body>
+</mjml>

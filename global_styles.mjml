@@ -1,0 +1,76 @@
+<!-- BASE STYLES TO BE SHARED ACROSS ALL TEMPLATES -->
+
+<mj-attributes>
+  <mj-body background-color="#ffffff" />
+  <mj-breakpoint width="600px" />
+  <mj-column width="600px" />
+  <mj-section padding-left="16px" padding-right="16px" />
+  <mj-all font-family="Helvetica" font-weight="400" />
+  <mj-button
+    background-color="#1E78CD"
+    color="#FFFFFF"
+    font-size="18px"
+    font-weight="600"
+  />
+  <mj-divider
+    border-width="1px"
+    border-color="#ECECEC"
+    padding-left="0"
+    padding-right="0"
+  />
+  <!-- Default text styling set to paragraph, override for heading or other tags -->
+  <mj-text
+    font-size="14px"
+    font-weight="400"
+    line-height="1.5"
+    color="#696969"
+    padding-left="0"
+    padding-right="0"
+  />
+  <!-- START CLASS DEFINITIONS -->
+  <!-- Font Sizes -->
+  <mj-class name="h1" font-size="24px" font-weight="600" color="#121212" />
+  <mj-class name="h2" font-size="20px" font-weight="600" color="#121212" />
+  <mj-class name="h3" font-size="16px" font-weight="600" color="#121212" />
+  <mj-class
+    name="caption"
+    font-size="12px"
+    font-weight="400"
+    color="#B5B5B5"
+    font-style="italic"
+  />
+  <!-- Font Styles -->
+  <mj-class name="bold" font-weight="700" />
+  <mj-class name="italic" font-style="italic" />
+  <mj-class name="link" color="#1E78CD" font-style="undlerine" />
+  <!-- Font Colors -->
+  <mj-class name="text-black" color="#121212" />
+  <mj-class name="text-grey-700" color="#252323" />
+  <mj-class name="text-grey-600" color="#2C2C2C" />
+  <mj-class name="text-grey-500" color="#696969" />
+  <mj-class name="text-grey-400" color="#828282" />
+  <mj-class name="text-grey-300" color="#B5B5B5" />
+  <mj-class name="text-grey-200" color="#ECECEC" />
+  <mj-class name="text-grey-200" color="#F6F6F6" />
+  <mj-class name="text-white" color="#FFFFFF" />
+  <mj-class name="text-blue" color="#1E78CD" />
+  <!-- Background Colors -->
+  <mj-class name="bg-black" background-color="#121212" />
+  <mj-class name="bg-grey-700" background-color="#252323" />
+  <mj-class name="bg-grey-600" background-color="#2C2C2C" />
+  <mj-class name="bg-grey-500" background-color="#696969" />
+  <mj-class name="bg-grey-400" background-color="#828282" />
+  <mj-class name="bg-grey-300" background-color="#B5B5B5" />
+  <mj-class name="bg-grey-200" background-color="#ECECEC" />
+  <mj-class name="bg-grey-200" background-color="#F6F6F6" />
+  <mj-class name="bg-white" background-color="#FFFFFF" />
+  <!-- Utilities -->
+  <mj-class name="py0" padding-top="0" padding-bottom="0" />
+  <mj-class name="p0" padding="0" />
+  <!-- END CLASS DEFINITIONS -->
+</mj-attributes>
+<mj-style inline="inline">
+  li { padding: 8px 16px; } ol, ul { margin:0; padding-inline-start: 16px; } a {
+  color:#1E78CD; font-weight: 600; } aside { text-align: center; } p a { color:
+  #ffffff; text-decoration: none; } img { height: 120px }
+</mj-style>

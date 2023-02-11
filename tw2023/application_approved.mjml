@@ -1,0 +1,72 @@
+<mjml>
+  <mj-head>
+    <mj-include path="../global_styles.mjml" />
+  </mj-head>
+  <mj-body mj-class="bg-white">
+    <mj-include path="./tw2023_header.mjml" />
+
+    <!-- Body  -->
+    <mj-section>
+      <mj-column>
+        <mj-text>Dear *|FIRST_NAME|*,</mj-text>
+        <mj-text>
+          Your application for *|CANDIDATE_TYPE_HUMANIZED|* to attend TEDWomen
+          2023 has been approved. Thank you for joining us!</mj-text
+        >
+        <mj-text>
+          We're looking forward to seeing you in Atlanta, Georgia from
+          Wednesday, October 11, to Friday, October 13, 2023.
+        </mj-text>
+        <mj-text mj-class="h3"> What are your next steps? </mj-text>
+        <mj-text>
+          By submitting this application, you've agreed to our registration
+          terms and conditions. These include:
+        </mj-text>
+        <mj-text>
+          <ol>
+            <li>
+              <a href="https://goto.ted.com/TEDWomen2023/register/"
+                >Confirm your registration</a
+              >&nbsp;now and pay immediately, then go on to book your hotel at
+              the TED attendee rate, or
+            </li>
+            <li>
+              <a href="https://goto.ted.com/TEDWomen2023/register/"
+                >Update your payment information within 48 hours</a
+              >, and pay immediately, then go on to book your hotel at the TED
+              attendee rate, or
+            </li>
+            <li>
+              Do nothing, and 48 hours from now, you’ll be charged US $*|PRICE|*
+              to the payment method you provided us upon application. Once the
+              payment goes through, you’ll receive a confirmation email and the
+              link to book your hotel at the TED attendee rate, or
+            </li>
+            <li>
+              <a href="https://www.ted.com/dashboard/conferences/tw2023"
+                >Withdraw your application within 48 hours</a
+              >
+              – of course your credit card/bank account will not be charged.
+            </li>
+          </ol>
+        </mj-text>
+        <mj-text mj-class="italic"
+          >Note: Your credit card or bank statement will mark the charge to TED
+          Conferences.</mj-text
+        >
+        <mj-text>
+          In the lead up to TEDWomen 2023, we will continue to update you by
+          email. If your email address changes, or you have any questions,
+          please let us know at
+          <a href="mailto:conferences@ted.com">conferences@ted.com</a>.</mj-text
+        >
+        <mj-text> We look forward to welcoming you for TEDWomen! </mj-text>
+        <mj-text mj-class="py0">Very best wishes,</mj-text>
+        <mj-text mj-class="py0 bold">The TED Team</mj-text>
+        <mj-divider padding-top="32px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="../global_footer.mjml" />
+  </mj-body>
+</mjml>

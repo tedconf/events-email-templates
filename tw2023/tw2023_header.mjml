@@ -1,0 +1,8 @@
+<!-- Header -->
+<mj-section mj-class="bg-black py0" full-width="full-width">
+  <mj-column>
+    <mj-image
+      src="https://page-builder.ted.com/system/baubles/files/000/010/070/original/tw23_email_header.png?1676136320"
+    />
+  </mj-column>
+</mj-section>

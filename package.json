@@ -2,16 +2,11 @@
   "name": "events-email-templates",
   "version": "1.0.0",
   "description": "Template files to be used to send automated event emails, built using MJML, configured to send with Mandrill/Mailchimp",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tedconf/events-email-templates.git"
   },
-  "author": "mchenry@ted.com",
-  "license": "ISC",
+  "author": "Ryan McHenry | mchenry@ted.com",
   "bugs": {
     "url": "https://github.com/tedconf/events-email-templates/issues"
   },

@@ -1,0 +1,21 @@
+<!-- Footer -->
+<mj-hero>
+  <mj-divider padding-bottom="24px" />
+</mj-hero>
+<mj-section mj-class="p0" text-align="center">
+  <mj-column width="64px">
+    <mj-image
+      mj-class="p0"
+      src="https://page-builder.ted.com/system/baubles/files/000/010/069/original/ted-logo.png?1676135941"
+      width="64px"
+    />
+  </mj-column>
+  <mj-column width="500px">
+    <mj-text mj-class="caption" padding-top="2px" padding-left="8px">
+      <aside>Copyright © *|CURRENT_YEAR|* TED, All rights reserved.</aside>
+    </mj-text>
+  </mj-column>
+</mj-section>
+<mj-hero>
+  <mj-divider padding-top="12px" />
+</mj-hero>

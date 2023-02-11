@@ -1,0 +1,109 @@
+<mjml>
+  <mj-head>
+    <mj-include path="../global_styles.mjml" />
+  </mj-head>
+  <mj-body mj-class="bg-white">
+    <mj-include path="./tw2023_header.mjml" />
+
+    <!-- Body  -->
+    <mj-section>
+      <mj-column>
+        <mj-text>Dear *|FIRST_NAME|*,</mj-text>
+        <mj-text>
+          <span mc:edit="1_ct_para1">
+            Early registration for TEDWomen 2023 is now open! Join us in
+            Atlanta, Georgia from Wednesday, October 11 to Friday, October 13,
+            2023.
+          </span>
+        </mj-text>
+        <mj-text mj-class="h3">TEDWomen 2023: Two Steps Forward</mj-text>
+        <mj-text
+          ><span mc:edit="1_ct_para2">
+            We all know that when it comes to global gender equity, there's
+            still so much work to be done. After all, the playing field is far
+            from level — and the past few years have seen so many women forced
+            to step back or out altogether. It's time to reset, to rethink, to
+            collectively imagine different ways forward. As such, this year's
+            TEDWomen conference will joyfully celebrate those taking bold
+            strides into the future, those working unapologetically to make big
+            dreams become reality. Come join us for this journey that begins
+            with not one but ... Two Steps Forward.
+          </span>
+        </mj-text>
+
+        <mj-text><span mc:edit="1_ct_para3"></span></mj-text>
+
+        <mj-text><span mc:edit="1_ct_invite"></span></mj-text>
+
+        <mj-text><span mc:edit="1_ct_membership_desc"></span></mj-text>
+
+        <mj-text><span mc:edit="1_ct_group"></span></mj-text>
+
+        <mj-text><span mc:edit="1_ct_donor_desc"></span></mj-text>
+
+        <mj-button mj-class="text-white"><a href="">Register Now</a></mj-button>
+
+        <mj-text><span mc:edit="1_ct_tax_info"></span></mj-text>
+
+        <mj-text mj-class="h3">Some things to note:</mj-text>
+
+        <mj-text>
+          <ul>
+            <li>
+              <a href="https://ted.com">Log into TED.com</a>. Use your TED.com
+              account associated with *|EMAIL|* to sign in and register.
+            </li>
+            <li>
+              <span style="font-weight: 600">Take action soon.</span>
+              <span mc:edit="1_ct_deadline"
+                >Complete your registration by *|TODAY_PLUS_14_DAYS|*.
+              </span>
+            </li>
+            <li>
+              <span style="font-weight: 600">Mark your calendar.</span>
+              <span mc:edit="1_ct_arrival">
+                For the full TEDWomen experience, plan to arrive late morning on
+                Wednesday, October 11, 2023 to join one of our workshops. Our
+                first speaker session starts at 5pm. The conference concludes in
+                the early afternoon of Friday, October 13.
+              </span>
+            </li>
+            <li>
+              <span style="font-weight: 600">Booking your hotel.</span>
+              <span mc:edit="1_ct_hotel_preinfo">
+                Take advantage of TED’s group rate at our partner hotels; all a
+                short walk from the conference venue. Rooms are limited and
+                first come first served.
+              </span>
+            </li>
+          </ul>
+        </mj-text>
+
+        <mj-text>
+          <span mc:edit="1_ct_contact">
+            If you have any questions about registration or anything else, let
+            us know at conferences@ted.com.
+          </span>
+        </mj-text>
+
+        <mj-text>
+          <span mc:edit="1_ct_signoff">We very much hope you’ll join us. </span>
+        </mj-text>
+
+        <mj-text mj-class="py0">
+          <span mc:edit="1_ct_signature">Onward!</span>
+        </mj-text>
+
+        <mj-text mj-class="py0 text-black bold">
+          Pat Mitchell, TEDWomen Editorial Director
+        </mj-text>
+
+        <mj-text mj-class="py0">+ the TED Team </mj-text>
+
+        <mj-divider padding-top="32px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="../global_footer.mjml" />
+  </mj-body>
+</mjml>
