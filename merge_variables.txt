@@ -1,0 +1,71 @@
+ATTENDEE_TYPE              
+ATTENDEE_TYPE_HUMANIZED    
+CANDIDATE_TYPE             
+CANDIDATE_TYPE_HUMANIZED   
+CURRENCY_CODE              
+DAY_PASS_DETAILS           formated as a list
+EMAIL                      
+EVENT_DATES                example "April 17 - 21, 2023"
+EVENT_SLUG                 
+EVENT_TITLE                
+EVENT_TITLE_SLUG           
+EVENT_WEEKDAYS             example "Monday - Friday"
+FEE_TYPE                   
+FIRST_NAME                 
+HAS_TEDCOM_ACCOUNT         0 or 1
+IS_NO_COST_FEE_TYPE        0 or 1
+LAST_NAME                  
+PRICE                      
+SESSION_PASS_DETAILS       formated as a list
+
+TODAY_PLUS_{1..30}_DAYS    example "Monday April 17, 2023"
+
+# main speakers for membership event emails, often no sessions or talks when first candidate emails are sent
+MAIN_SPEAKER_1_DESCRIPTION   
+MAIN_SPEAKER_1_NAME          
+MAIN_SPEAKER_1_PHOTO_URL     
+MAIN_SPEAKER_1_TYPE          "Host" or empty
+MAIN_SPEAKER_2_DESCRIPTION   
+MAIN_SPEAKER_2_NAME          
+MAIN_SPEAKER_2_PHOTO_URL     
+MAIN_SPEAKER_2_TYPE          "Host" or empty
+MAIN_SPEAKER_3_DESCRIPTION   
+MAIN_SPEAKER_3_NAME          
+MAIN_SPEAKER_3_PHOTO_URL     
+MAIN_SPEAKER_3_TYPE          "Host" or empty
+MAIN_SPEAKER_4_DESCRIPTION   
+MAIN_SPEAKER_4_NAME          
+MAIN_SPEAKER_4_PHOTO_URL     
+MAIN_SPEAKER_4_TYPE          "Host" or empty
+MAIN_SPEAKER_5_DESCRIPTION   
+MAIN_SPEAKER_5_NAME          
+MAIN_SPEAKER_5_PHOTO_URL     
+MAIN_SPEAKER_5_TYPE          "Host" or empty
+MAIN_SPEAKER_6_DESCRIPTION   
+MAIN_SPEAKER_6_NAME          
+MAIN_SPEAKER_6_PHOTO_URL     
+MAIN_SPEAKER_6_TYPE          "Host" or empty
+MAIN_SPEAKER_7_DESCRIPTION   
+MAIN_SPEAKER_7_NAME          
+MAIN_SPEAKER_7_PHOTO_URL     
+MAIN_SPEAKER_7_TYPE          "Host" or empty
+MAIN_SPEAKER_8_DESCRIPTION   
+MAIN_SPEAKER_8_NAME          
+MAIN_SPEAKER_8_PHOTO_URL     
+MAIN_SPEAKER_8_TYPE          "Host" or empty
+MAIN_SPEAKER_9_DESCRIPTION   
+MAIN_SPEAKER_9_NAME          
+MAIN_SPEAKER_9_PHOTO_URL     
+MAIN_SPEAKER_9_TYPE          "Host" or empty
+
+# first main speaker session for membership event emails, often no sessions when first candidate emails are sent
+MAIN_SPEAKER_SESSION_1_BEGIN_AT_RFC3339   for use in add-to-calendar links
+MAIN_SPEAKER_SESSION_1_DESCRIPTION        
+MAIN_SPEAKER_SESSION_1_END_AT_RFC3339     for use in add-to-calendar links
+MAIN_SPEAKER_SESSION_1_FORMAT             
+MAIN_SPEAKER_SESSION_1_FORMAT_ID          
+MAIN_SPEAKER_SESSION_1_HOURS              example "5-7pm"
+MAIN_SPEAKER_SESSION_1_SIGNUP_LABEL       
+MAIN_SPEAKER_SESSION_1_SIGNUP_URL         
+MAIN_SPEAKER_SESSION_1_TITLE              
+MAIN_SPEAKER_SESSION_1_TZ_URL             suggested by conference team as part of membership events rollout
