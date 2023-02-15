@@ -31,10 +31,10 @@
         <mj-text mj-class="h3">Next steps:</mj-text>
 
         <mj-text>
-          <ul>
+          <ul style="list-style: none; padding-inline-start: 16px">
             <li>
-              <span style="font-weight: 600">Book your hotel.</span>
               <span mc:edit="2_ct_book_hotel">
+                <span style="font-weight: 600">Book your hotel.</span>
                 Take advantage of TED’s group rate at our partner hotels; all a
                 short walk from the conference venue. Rooms are limited and
                 first come first served.
@@ -46,8 +46,8 @@
               </span>
             </li>
             <li>
-              <span style="font-weight: 600">See your next steps.</span>
               <span mc:edit="2_ct_dashboard">
+                <span style="font-weight: 600">See your next steps.</span>
                 Your conference dashboard links to everything you need to know
                 to prepare for TEDWomen. Log in with *|EMAIL|*.
                 <a href="https://www.ted.com/dashboard/conferences/tedwomen2023"
@@ -56,8 +56,8 @@
               </span>
             </li>
             <li>
-              <span style="font-weight: 600">Review TED policies</span>
               <span mc:edit="2_ct_review_policies">
+                <span style="font-weight: 600">Review TED policies.</span>
                 For easy access, here are links to the
                 <a
                   href="https://www.ted.com/attend/conferences/registration-policies#h2--tedwomen-conference-registration-policies"
@@ -72,8 +72,10 @@
               </span>
             </li>
             <li>
-              <span style="font-weight: 600">Add us to your contact list.</span>
               <span mc:edit="2_ct_add_contact">
+                <span style="font-weight: 600"
+                  >Add us to your contact list.</span
+                >
                 You'll receive important TEDWomen updates by email so take a
                 minute to add conferences@ted.com to your contacts so you never
                 miss the latest news.
