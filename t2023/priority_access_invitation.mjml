@@ -1,0 +1,122 @@
+<mjml>
+  <mj-head>
+    <mj-include path="../global_styles.mjml" />
+  </mj-head>
+  <mj-body mj-class="bg-white">
+    <mj-include path="./t2023_header.mjml" />
+
+    <!-- Body  -->
+    <mj-section>
+      <mj-column>
+        <mj-text>Dear *|FIRST_NAME|*,</mj-text>
+
+        <mj-text>
+          <span mc:edit="1_ct_para1">
+            You're invited to TED2023 taking place Monday, April 17 to Friday,
+            April 21, 2023, in Vancouver, Canada. You can skip the application
+            process and register with your personal link contained in this email
+            — take action now to secure your spot.
+          </span>
+        </mj-text>
+
+        <mj-text>
+          <span mc:edit="1_ct_para2">
+            <h3>TED2023 is all about possibilities...</h3>
+            Much of today’s public conversation is eaten up by zero-sum battles
+            between divided groups. But the world doesn’t have to be zero sum.
+            Next year together we will explore a strange and beautiful space
+            called the adjacent possible.
+          </span>
+        </mj-text>
+
+        <mj-text>
+          <span mc:edit="1_ct_para3">
+            We'll be guided there by… Dreamers. Inventors. Creatives.
+            Innovators. Entrepreneurs. Builders. Explorers. Change-Makers.
+            Visionary thinkers and doers from every field of human endeavor.
+            They don't feel tied down by the world as it is. Instead they’re
+            obsessed by what might be. They use the power of imagination to make
+            the world bigger, better, more thrilling, more hopeful. And the
+            incredible thing is… their visions may inspire us to actually make
+            that possible world real. In a time of great challenges, this is the
+            antidote we need. Please come dream with us!
+          </span>
+        </mj-text>
+      </mj-column>
+
+    <mj-raw>
+      <div id="1_ct_invite" mc:edit="1_ct_invite"></div>
+      <div id="1_ct_membership_desc" mc:edit="1_ct_membership_desc"></div>
+      <div id="1_ct_donor_desc" mc:edit="1_ct_donor_desc"></div>
+      <div id="1_ct_patron_desc" mc:edit="1_ct_patron_desc"></div>
+      <div id="1_ct_tax_info" mc:edit="1_ct_tax_info"></div>
+    </mj-raw>
+
+
+      <mj-column>
+        <mj-spacer height="16px" />
+
+        <mj-button mj-class="text-white" align="left">
+          <a href="https://goto.ted.com/t2023/register" style="color: #ffffff; text-decoration: none;">Register Now</a>
+        </mj-button>
+
+        <mj-spacer height="16px" />
+
+        <mj-text mj-class="h3">Some things to note:</mj-text>
+
+        <mj-text>
+          <ul style="list-style: none; padding-inline-start: 16px">
+            <li>
+              <p>
+                <span style="font-weight: 600">Log into TED.com</span>. Use your
+                TED.com account associated with *|EMAIL|* to sign in and register.
+              </p>
+            </li>
+            <li>
+              <p id="1_ct_deadline" mc:edit="1_ct_deadline">
+                <span style="font-weight: 600">Take action soon.</span>
+                Complete your registration by
+                <span style="font-weight: 600">*|TODAY_PLUS_14_DAYS|*</span>.
+              </p>
+            </li>
+            <li id="1_ct_membership_details" mc:edit="1_ct_membership_details">
+            </li>
+            <li id="1_ct_hotel_preinfo" mc:edit="1_ct_hotel_preinfo">
+            </li>
+            <li id="1_ct_attending_with" mc:edit="1_ct_attending_with">
+            </li>
+            <li id="1_ct_arrival" mc:edit="1_ct_arrival">
+            </li>
+            <li id="1_ct_health_safety" mc:edit="1_ct_health_safety">
+            </li>
+            <li id="1_ct_reserve" mc:edit="1_ct_reserve">
+            </li>
+          </ul>
+        </mj-text>
+
+        <mj-text>
+          <span id="1_ct_contact" mc:edit="1_ct_contact">
+            If you have any questions about registration or anything else, let
+            us know at conferences@ted.com.
+          </span>
+        </mj-text>
+
+        <mj-text>
+          <span id="1_ct_signoff" mc:edit="1_ct_signoff"
+            >We hope to see you in Vancouver!</span
+          >
+        </mj-text>
+
+        <mj-text mj-class="py0">
+          <span id="1_ct_signature" mc:edit="1_ct_signature"
+            >Warmest Regards,</span
+          >
+          <br />
+          The TED Team
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="../global_footer.mjml" />
+  </mj-body>
+</mjml>

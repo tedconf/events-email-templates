@@ -31,7 +31,7 @@
 
         <mj-text>
           <ul>
-            <li>
+            <li style="padding: 10px 0px;">
               If your application is approved we'll send you an email. You'll
               have 48 hours to update your payment details or withdraw your
               application (in which case, your card will not be charged). If no
@@ -39,7 +39,7 @@
               will be confirmed and your credit card/bank account will be
               charged.
             </li>
-            <li>
+            <li style="padding: 10px 0px;">
               Once you're registered, no refunds or carryovers are allowed.
             </li>
           </ul>

@@ -11,7 +11,7 @@
         <mj-text>Dear *|FIRST_NAME|*,</mj-text>
 
         <mj-text>
-          <span mc:edit="1_ct_para1">
+          <span id="1_ct_para1" mc:edit="1_ct_para1">
             Early registration for TEDWomen 2023 is now open! Join us in
             Atlanta, Georgia from Wednesday, October 11 to Friday, October 13,
             2023.
@@ -19,7 +19,7 @@
         </mj-text>
 
         <mj-text>
-          <span mc:edit="1_ct_para2">
+          <span id="1_ct_para2" mc:edit="1_ct_para2">
             <h3>TEDWomen 2023: Two Steps Forward</h3>
             We all know that when it comes to global gender equity, there's
             still so much work to be done. After all, the playing field is far
@@ -32,60 +32,59 @@
             with not one but ... Two Steps Forward.
           </span>
         </mj-text>
-        <!--  -->
-        <mj-raw>*|IF:1_ct_para3|*</mj-raw>
-        <mj-text><span mc:edit="1_ct_para3"></span></mj-text>
-        <mj-raw>*|END:IF|*</mj-raw>
-        <!--  -->
-        <mj-raw>*|IF:1_ct_invite|*</mj-raw>
-        <mj-text><span mc:edit="1_ct_invite"></span></mj-text>
-        <mj-raw>*|END:IF|*</mj-raw>
-        <!--  -->
-        <mj-raw>*|IF:1_ct_membership_desc|*</mj-raw>
-        <mj-text><span mc:edit="1_ct_membership_desc"></span></mj-text>
-        <mj-raw>*|END:IF|*</mj-raw>
-        <!--  -->
-        <mj-raw>*|IF:1_ct_group|*</mj-raw>
-        <mj-text><span mc:edit="1_ct_group"></span></mj-text>
-        <mj-raw>*|END:IF|*</mj-raw>
-        <!--  -->
-        <mj-raw>*|IF:1_ct_membership_desc|*</mj-raw>
-        <mj-text><span mc:edit="1_ct_membership_desc"></span></mj-text>
-        <mj-raw>*|END:IF|*</mj-raw>
 
+      </mj-column>
+
+      <mj-raw>
+        <div id="1_ct_invite" mc:edit="1_ct_invite"></div>
+        <div id="1_ct_membership_desc" mc:edit="1_ct_membership_desc"></div>
+        <div id="1_ct_group" mc:edit="1_ct_group"></div>
+        <div id="1_ct_donor_desc" mc:edit="1_ct_donor_desc"></div>
+      </mj-raw>
+
+      <mj-column>
+        <mj-spacer height="16px" />
         <mj-button mj-class="text-white" align="left"
-          ><a href="">Register Now</a></mj-button
-        >
+          ><a href="https://goto.ted.com/tw2023/register" style="color: #ffffff; text-decoration: none;">Register Now</a>
+        </mj-button>
+      </mj-column>
 
-        *|IF:1_ct_tax_info|*
-        <mj-text><span mc:edit="1_ct_tax_info"></span></mj-text>
-        *|END:IF|*
+      <mj-raw>
+        <div id="1_ct_invite" mc:edit="1_ct_invite"></div>
+        <div id="1_ct_membership_desc" mc:edit="1_ct_membership_desc"></div>
+        <div id="1_ct_group" mc:edit="1_ct_group"></div>
+        <div id="1_ct_tax_info" mc:edit="1_ct_tax_info"></div>
+      </mj-raw>
+
+      <mj-column>
 
         <mj-text mj-class="h3">Some things to note:</mj-text>
 
         <mj-text>
           <ul style="list-style: none; padding-inline-start: 16px">
             <li>
-              <a href="https://ted.com">Log into TED.com</a>. Use your TED.com
-              account associated with *|EMAIL|* to sign in and register.
-            </li>
+              <p>
+                <span style="font-weight: 600">Log into TED.com</span>. Use your TED.com
+                account associated with *|EMAIL|* to sign in and register.
+              </li>
+              </p>
             <li>
-              <span mc:edit="1_ct_deadline">
+              <p id="1_ct_deadline" mc:edit="1_ct_deadline">
                 <span style="font-weight: 600">Take action soon.</span>
                 Complete your registration by *|TODAY_PLUS_14_DAYS|*.
-              </span>
+              </p>
             </li>
             <li>
-              <span mc:edit="1_ct_arrival">
+              <p id="1_ct_arrival" mc:edit="1_ct_arrival">
                 <span style="font-weight: 600">Mark your calendar.</span>
                 For the full TEDWomen experience, plan to arrive late morning on
                 Wednesday, October 11, 2023 to join one of our workshops. Our
                 first speaker session starts at 5pm. The conference concludes in
                 the early afternoon of Friday, October 13.
-              </span>
+              </p>
             </li>
             <li>
-              <span mc:edit="1_ct_hotel_preinfo">
+              <p id="1_ct_hotel_preinfo" mc:edit="1_ct_hotel_preinfo">
                 <span style="font-weight: 600">Booking your hotel.</span>
                 Take advantage of TED’s group rate at our partner hotels; all a
                 short walk from the conference venue. Rooms are limited and
@@ -94,24 +93,26 @@
                   href="https://www.google.com/url?q=https://www.ted.com/dashboard/conferences/tedwomen2023/hotels"
                   >Reserve your hotel now.</a
                 >
-              </span>
+              </p>
             </li>
           </ul>
         </mj-text>
 
         <mj-text>
-          <span mc:edit="1_ct_contact">
+          <span id="1_ct_contact" mc:edit="1_ct_contact">
             If you have any questions about registration or anything else, let
             us know at conferences@ted.com.
           </span>
         </mj-text>
 
         <mj-text>
-          <span mc:edit="1_ct_signoff">We very much hope you’ll join us. </span>
+          <span id="1_ct_signoff" mc:edit="1_ct_signoff"
+            >We very much hope you’ll join us.
+          </span>
         </mj-text>
 
         <mj-text mj-class="py0">
-          <span mc:edit="1_ct_signature">Onward!</span>
+          <span id="1_ct_signature" mc:edit="1_ct_signature">Onward!</span>
         </mj-text>
 
         <mj-text mj-class="py0 text-black bold">

@@ -25,28 +25,36 @@
         <mj-text>
           <ol>
             <li>
-              <a href="https://goto.ted.com/TEDWomen2023/register/"
-                >Confirm your registration</a
-              >&nbsp;now and pay immediately, then go on to book your hotel at
-              the TED attendee rate, or
+              <p>
+                <a href="https://goto.ted.com/TEDWomen2023/register/"
+                  >Confirm your registration</a
+                >&nbsp;now and pay immediately, then go on to book your hotel at
+                the TED attendee rate, or
+              </p>
             </li>
             <li>
-              <a href="https://goto.ted.com/TEDWomen2023/register/"
-                >Update your payment information within 48 hours</a
-              >, and pay immediately, then go on to book your hotel at the TED
-              attendee rate, or
+              <p>
+                <a href="https://goto.ted.com/TEDWomen2023/register/"
+                  >Update your payment information within 48 hours</a
+                >, and pay immediately, then go on to book your hotel at the TED
+                attendee rate, or
+              </p>
             </li>
             <li>
-              Do nothing, and 48 hours from now, you’ll be charged US $*|PRICE|*
-              to the payment method you provided us upon application. Once the
-              payment goes through, you’ll receive a confirmation email and the
-              link to book your hotel at the TED attendee rate, or
+              <p>
+                Do nothing, and 48 hours from now, you’ll be charged US $*|PRICE|*
+                to the payment method you provided us upon application. Once the
+                payment goes through, you’ll receive a confirmation email and the
+                link to book your hotel at the TED attendee rate, or
+              </p>
             </li>
             <li>
-              <a href="https://www.ted.com/dashboard/conferences/tw2023"
-                >Withdraw your application within 48 hours</a
-              >
-              – of course your credit card/bank account will not be charged.
+              <p>
+                <a href="https://www.ted.com/dashboard/conferences/tw2023"
+                  >Withdraw your application within 48 hours</a
+                >
+                – of course your credit card/bank account will not be charged.
+              </p>
             </li>
           </ol>
         </mj-text>

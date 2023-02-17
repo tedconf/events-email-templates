@@ -1,0 +1,10 @@
+<!-- Header -->
+<mj-section mj-class="py0 bg-t2023-blue" full-width="full-width">
+  <mj-column mj-class="py0 bg-t2023-blue">
+    <mj-image
+      mj-class="py0 bg-t2023-blue"
+      href="https://conferences.ted.com/conference/ted2023"
+      src="https://page-builder.ted.com/system/baubles/files/000/010/071/original/t23_email_header.png"
+    />
+  </mj-column>
+</mj-section>
