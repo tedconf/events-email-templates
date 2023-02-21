@@ -71,7 +71,6 @@
         <mj-text> We look forward to welcoming you for TEDWomen! </mj-text>
         <mj-text mj-class="py0">Very best wishes,</mj-text>
         <mj-text mj-class="py0 bold">The TED Team</mj-text>
-        <mj-divider padding-top="32px" />
       </mj-column>
     </mj-section>
 

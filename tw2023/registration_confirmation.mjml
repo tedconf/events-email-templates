@@ -99,7 +99,7 @@
           <span mc:edit="2_ct_signature">Very best wishes,</span>
         </mj-text>
         <mj-text mj-class="py0 bold">The TED Team</mj-text>
-        <mj-divider padding-top="32px" />
+
       </mj-column>
     </mj-section>
 

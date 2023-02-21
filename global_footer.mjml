@@ -1,6 +1,6 @@
 <!-- Footer -->
 <mj-hero>
-  <mj-divider padding-bottom="24px" />
+  <mj-divider padding-bottom="8px" />
 </mj-hero>
 <mj-section mj-class="p0" text-align="center">
   <mj-column width="64px">

@@ -50,9 +50,6 @@
       </mj-column>
 
       <mj-raw>
-        <div id="1_ct_invite" mc:edit="1_ct_invite"></div>
-        <div id="1_ct_membership_desc" mc:edit="1_ct_membership_desc"></div>
-        <div id="1_ct_group" mc:edit="1_ct_group"></div>
         <div id="1_ct_tax_info" mc:edit="1_ct_tax_info"></div>
       </mj-raw>
 
@@ -66,34 +63,43 @@
               <p>
                 <span style="font-weight: 600">Log into TED.com</span>. Use your TED.com
                 account associated with *|EMAIL|* to sign in and register.
-              </li>
-              </p>
-            <li>
-              <p id="1_ct_deadline" mc:edit="1_ct_deadline">
-                <span style="font-weight: 600">Take action soon.</span>
-                Complete your registration by *|TODAY_PLUS_14_DAYS|*.
               </p>
             </li>
             <li>
-              <p id="1_ct_arrival" mc:edit="1_ct_arrival">
-                <span style="font-weight: 600">Mark your calendar.</span>
-                For the full TEDWomen experience, plan to arrive late morning on
-                Wednesday, October 11, 2023 to join one of our workshops. Our
-                first speaker session starts at 5pm. The conference concludes in
-                the early afternoon of Friday, October 13.
-              </p>
+              <div id="1_ct_deadline" mc:edit="1_ct_deadline">
+                <p style="margin: 0; padding: 10px 0;">
+                  <span style="font-weight: 600">Take action soon.</span>
+                  Complete your registration by *|TODAY_PLUS_14_DAYS|*.
+                </p>
+              </div>
             </li>
             <li>
-              <p id="1_ct_hotel_preinfo" mc:edit="1_ct_hotel_preinfo">
-                <span style="font-weight: 600">Booking your hotel.</span>
-                Take advantage of TED’s group rate at our partner hotels; all a
-                short walk from the conference venue. Rooms are limited and
-                first come first served.
-                <a
-                  href="https://www.google.com/url?q=https://www.ted.com/dashboard/conferences/tedwomen2023/hotels"
-                  >Reserve your hotel now.</a
-                >
-              </p>
+              <div id="1_ct_membership_details" mc:edit="1_ct_membership_details"></div>
+            </li>
+            <li>
+              <div id="1_ct_arrival" mc:edit="1_ct_arrival">
+                <p style="margin: 0; padding: 10px 0;">
+                  <span style="font-weight: 600">Mark your calendar.</span>
+                  For the full TEDWomen experience, plan to arrive late morning on
+                  Wednesday, October 11, 2023 to join one of our workshops. Our
+                  first speaker session starts at 5pm. The conference concludes in
+                  the early afternoon of Friday, October 13.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div id="1_ct_hotel_preinfo" mc:edit="1_ct_hotel_preinfo">
+                <p style="margin: 0; padding: 10px 0;">
+                  <span style="font-weight: 600">Booking your hotel.</span>
+                  Take advantage of TED’s group rate at our partner hotels; all a
+                  short walk from the conference venue. Rooms are limited and
+                  first come first served.
+                  <a
+                    href="https://www.google.com/url?q=https://www.ted.com/dashboard/conferences/tedwomen2023/hotels"
+                    >Reserve your hotel now.</a
+                  >
+                </p>
+              </div>
             </li>
           </ul>
         </mj-text>
@@ -121,7 +127,6 @@
 
         <mj-text mj-class="py0">+ the TED Team </mj-text>
 
-        <mj-divider padding-top="32px" />
       </mj-column>
     </mj-section>
 

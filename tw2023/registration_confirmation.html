@@ -107,8 +107,62 @@
 
   </style>
   <style type="text/css">
+    li {
+      padding: 0px;
+      margin: 0;
+    }
+
+    ol,
+    ul {
+      margin: 0;
+      padding-inline-start:
+        40px;
+    }
+
+    a {
+      color: #1155cc;
+      font-weight: 600;
+    }
+
+    aside {
+      text-align: center;
+    }
+
+    img {
+      height: 120px
+    }
+
+    h1 {
+      font-size: 24px;
+      font-weight: 600;
+      color: #121212
+    }
+
+    h2 {
+      font-size: 20px;
+      font-weight: 600;
+      color: #121212
+    }
+
+    h3 {
+      font-size: 16px;
+      font-weight: 600;
+      color: #121212;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+      padding: 10px 0;
+    }
+
+    div span p {
+      padding: 0;
+    }
+
   </style>
   <!-- BASE STYLES TO BE SHARED ACROSS ALL TEMPLATES -->
+  <!-- duplicate styles in head as well as inline -->
 </head>
 
 <body style="word-spacing:normal;background-color:#FFFFFF;">
@@ -138,7 +192,7 @@
                                           <tbody>
                                             <tr>
                                               <td style="width:550px;">
-                                                <a href="https://conferences.ted.com/conference/ted2023" target="_blank" style="color: #1155cc; font-weight: 600;">
+                                                <a href="https://conferences.ted.com/conference/tedwomen2023" target="_blank" style="color: #1155cc; font-weight: 600;">
                                                   <img height="auto" src="https://page-builder.ted.com/system/baubles/files/000/010/070/original/tw23_email_header.png?1676136320" style="border: 0; display: block; outline: none; text-decoration: none; height: auto; width: 100%; font-size: 13px;" width="550">
                                                 </a>
                                               </td>
@@ -178,17 +232,17 @@
                   <tbody>
                     <tr>
                       <td align="left" style="font-size:0px;padding:10px 25px;padding-right:0;padding-left:0;word-break:break-word;">
-                        <div style="font-family:Helvetica;font-size:14px;font-weight:400;line-height:1.5;text-align:left;color:#696969;">Dear *|FIRST_NAME|*,</div>
+                        <div style="font-family:Helvetica;font-size:14px;font-weight:400;line-height:1.5;text-align:left;color:#444444;">Dear *|FIRST_NAME|*,</div>
                       </td>
                     </tr>
                     <tr>
                       <td align="left" style="font-size:0px;padding:10px 25px;padding-right:0;padding-left:0;word-break:break-word;">
-                        <div style="font-family:Helvetica;font-size:14px;font-weight:400;line-height:1.5;text-align:left;color:#696969;"><span mc:edit="2_ct_confirm_opener"> This email confirms your *|CANDIDATE TYPE|* registration for TEDWomen 2023. Thank you for joining us! We're looking forward to seeing you in Atlanta, Georgia, October 11–13, 2023. </span></div>
+                        <div style="font-family:Helvetica;font-size:14px;font-weight:400;line-height:1.5;text-align:left;color:#444444;"><span mc:edit="2_ct_confirm_opener"> This email confirms your *|CANDIDATE TYPE|* registration for TEDWomen 2023. Thank you for joining us! We're looking forward to seeing you in Atlanta, Georgia, October 11–13, 2023. </span></div>
                       </td>
                     </tr>
                     <tr>
                       <td align="left" style="font-size:0px;padding:10px 25px;padding-right:0;padding-left:0;word-break:break-word;">
-                        <div style="font-family:Helvetica;font-size:14px;font-weight:400;line-height:1.5;text-align:left;color:#696969;"><span mc:edit="2_ct_block_time"> Plan to arrive late morning on Wednesday (October 11) to join one of our workshops or experiences. The first speaker session kicks off in the early evening followed by our welcome party. The conference closes on Friday with a speaker program in the morning followed by a farewell lunch. </span></div>
+                        <div style="font-family:Helvetica;font-size:14px;font-weight:400;line-height:1.5;text-align:left;color:#444444;"><span mc:edit="2_ct_block_time"> Plan to arrive late morning on Wednesday (October 11) to join one of our workshops or experiences. The first speaker session kicks off in the early evening followed by our welcome party. The conference closes on Friday with a speaker program in the morning followed by a farewell lunch. </span></div>
                       </td>
                     </tr>
                     <tr>
@@ -198,23 +252,27 @@
                     </tr>
                     <tr>
                       <td align="left" style="font-size:0px;padding:10px 25px;padding-right:0;padding-left:0;word-break:break-word;">
-                        <div style="font-family:Helvetica;font-size:14px;font-weight:400;line-height:1.5;text-align:left;color:#696969;">
+                        <div style="font-family:Helvetica;font-size:14px;font-weight:400;line-height:1.5;text-align:left;color:#444444;">
                           <ul style="margin: 0; list-style: none; padding-inline-start: 16px;">
-                            <li style="padding: 8px 0px; margin: 0;">
-                              <span mc:edit="2_ct_book_hotel">
-                                <span style="font-weight: 600">Book your hotel.</span> Take advantage of TED’s group rate at our partner hotels; all a short walk from the conference venue. Rooms are limited and first come first served. <a href="https://www.ted.com/dashboard/conferences/tedwomen2023/hotels" style="color: #1155cc; font-weight: 600;"> Reserve your hotel now</a>. </span>
+                            <li style="padding: 0px; margin: 0;">
+                              <p mc:edit="2_ct_book_hotel" style="margin: 0; padding: 10px 0;">
+                                <span style="font-weight: 600">Book your hotel.</span> Take advantage of TED’s group rate at our partner hotels; all a short walk from the conference venue. Rooms are limited and first come first served. <a href="https://www.ted.com/dashboard/conferences/tedwomen2023/hotels" style="color: #1155cc; font-weight: 600;"> Reserve your hotel now</a>.
+                              </p>
                             </li>
-                            <li style="padding: 8px 0px; margin: 0;">
-                              <span mc:edit="2_ct_dashboard">
-                                <span style="font-weight: 600">See your next steps.</span> Your conference dashboard links to everything you need to know to prepare for TEDWomen. Log in with *|EMAIL|*. <a href="https://www.ted.com/dashboard/conferences/tedwomen2023" style="color: #1155cc; font-weight: 600;">View your conference dashboard</a>. </span>
+                            <li style="padding: 0px; margin: 0;">
+                              <p mc:edit="2_ct_dashboard" style="margin: 0; padding: 10px 0;">
+                                <span style="font-weight: 600">See your next steps.</span> Your conference dashboard links to everything you need to know to prepare for TEDWomen. Log in with *|EMAIL|*. <a href="https://www.ted.com/dashboard/conferences/tedwomen2023" style="color: #1155cc; font-weight: 600;">View your conference dashboard</a>.
+                              </p>
                             </li>
-                            <li style="padding: 8px 0px; margin: 0;">
-                              <span mc:edit="2_ct_review_policies">
-                                <span style="font-weight: 600">Review TED policies.</span> For easy access, here are links to the <a href="https://www.ted.com/attend/conferences/registration-policies#h2--tedwomen-conference-registration-policies" style="color: #1155cc; font-weight: 600;">conference registration policies</a> including health and safety precautions, and <a href="https://www.ted.com/attend/conferences/registration-policies/code-of-conduct" style="color: #1155cc; font-weight: 600;">TED's code of conduct</a> (which you agreed to during registration). </span>
+                            <li style="padding: 0px; margin: 0;">
+                              <p mc:edit="2_ct_review_policies" style="margin: 0; padding: 10px 0;">
+                                <span style="font-weight: 600">Review TED policies.</span> For easy access, here are links to the <a href="https://www.ted.com/attend/conferences/registration-policies#h2--tedwomen-conference-registration-policies" style="color: #1155cc; font-weight: 600;">conference registration policies</a> including health and safety precautions, and <a href="https://www.ted.com/attend/conferences/registration-policies/code-of-conduct" style="color: #1155cc; font-weight: 600;">TED's code of conduct</a> (which you agreed to during registration).
+                              </p>
                             </li>
-                            <li style="padding: 8px 0px; margin: 0;">
-                              <span mc:edit="2_ct_add_contact">
-                                <span style="font-weight: 600">Add us to your contact list.</span> You'll receive important TEDWomen updates by email so take a minute to add conferences@ted.com to your contacts so you never miss the latest news. </span>
+                            <li style="padding: 0px; margin: 0;">
+                              <p mc:edit="2_ct_add_contact" style="margin: 0; padding: 10px 0;">
+                                <span style="font-weight: 600">Add us to your contact list.</span> You'll receive important TEDWomen updates by email so take a minute to add conferences@ted.com to your contacts so you never miss the latest news.
+                              </p>
                             </li>
                           </ul>
                         </div>
@@ -222,30 +280,22 @@
                     </tr>
                     <tr>
                       <td align="left" style="font-size:0px;padding:10px 25px;padding-right:0;padding-left:0;word-break:break-word;">
-                        <div style="font-family:Helvetica;font-size:14px;font-weight:400;line-height:1.5;text-align:left;color:#696969;"><span mc:edit="2_ct_contact_us"> Questions? Send a note to <a href="mailto:conferences@ted.com" style="color: #1155cc; font-weight: 600;">conferences@ted.com</a>. </span></div>
+                        <div style="font-family:Helvetica;font-size:14px;font-weight:400;line-height:1.5;text-align:left;color:#444444;"><span mc:edit="2_ct_contact_us"> Questions? Send a note to <a href="mailto:conferences@ted.com" style="color: #1155cc; font-weight: 600;">conferences@ted.com</a>. </span></div>
                       </td>
                     </tr>
                     <tr>
                       <td align="left" style="font-size:0px;padding:10px 25px;padding-right:0;padding-left:0;word-break:break-word;">
-                        <div style="font-family:Helvetica;font-size:14px;font-weight:400;line-height:1.5;text-align:left;color:#696969;"><span mc:edit="2_ct_sign_off"> We look forward to welcoming you to Atlanta for TEDWomen 2023! </span></div>
+                        <div style="font-family:Helvetica;font-size:14px;font-weight:400;line-height:1.5;text-align:left;color:#444444;"><span mc:edit="2_ct_sign_off"> We look forward to welcoming you to Atlanta for TEDWomen 2023! </span></div>
                       </td>
                     </tr>
                     <tr>
                       <td align="left" style="font-size:0px;padding:10px 25px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;word-break:break-word;">
-                        <div style="font-family:Helvetica;font-size:14px;font-weight:400;line-height:1.5;text-align:left;color:#696969;"><span mc:edit="2_ct_signature">Very best wishes,</span></div>
+                        <div style="font-family:Helvetica;font-size:14px;font-weight:400;line-height:1.5;text-align:left;color:#444444;"><span mc:edit="2_ct_signature">Very best wishes,</span></div>
                       </td>
                     </tr>
                     <tr>
                       <td align="left" style="font-size:0px;padding:10px 25px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;word-break:break-word;">
-                        <div style="font-family:Helvetica;font-size:14px;font-weight:700;line-height:1.5;text-align:left;color:#696969;">The TED Team</div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td align="center" style="font-size:0px;padding:10px 25px;padding-top:32px;padding-right:0;padding-left:0;word-break:break-word;">
-                        <p style="border-top:solid 1px #ECECEC;font-size:1px;margin:0px auto;width:100%;">
-                        </p>
-                        <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 1px #ECECEC;font-size:1px;margin:0px auto;width:600px;" role="presentation" width="600px" ><tr><td style="height:0;line-height:0;"> &nbsp;
-</td></tr></table><![endif]-->
+                        <div style="font-family:Helvetica;font-size:14px;font-weight:700;line-height:1.5;text-align:left;color:#444444;">The TED Team</div>
                       </td>
                     </tr>
                   </tbody>
@@ -274,8 +324,8 @@
                         <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;margin:0px;">
                           <tbody>
                             <tr>
-                              <td align="center" style="font-size:0px;padding:10px 25px;padding-right:0;padding-bottom:24px;padding-left:0;word-break:break-word;">
-                                <p style="border-top:solid 1px #ECECEC;font-size:1px;margin:0px auto;width:100%;">
+                              <td align="center" style="font-size:0px;padding:10px 25px;padding-right:0;padding-bottom:8px;padding-left:0;word-break:break-word;">
+                                <p style="padding: 10px 0; border-top: solid 1px #ECECEC; font-size: 1px; margin: 0px auto; width: 100%;">
                                 </p>
                                 <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 1px #ECECEC;font-size:1px;margin:0px auto;width:600px;" role="presentation" width="600px" ><tr><td style="height:0;line-height:0;"> &nbsp;
 </td></tr></table><![endif]-->
@@ -356,7 +406,7 @@
                           <tbody>
                             <tr>
                               <td align="center" style="font-size:0px;padding:10px 25px;padding-top:12px;padding-right:0;padding-left:0;word-break:break-word;">
-                                <p style="border-top:solid 1px #ECECEC;font-size:1px;margin:0px auto;width:100%;">
+                                <p style="padding: 10px 0; border-top: solid 1px #ECECEC; font-size: 1px; margin: 0px auto; width: 100%;">
                                 </p>
                                 <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 1px #ECECEC;font-size:1px;margin:0px auto;width:600px;" role="presentation" width="600px" ><tr><td style="height:0;line-height:0;"> &nbsp;
 </td></tr></table><![endif]-->

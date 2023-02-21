@@ -107,8 +107,62 @@
 
   </style>
   <style type="text/css">
+    li {
+      padding: 0px;
+      margin: 0;
+    }
+
+    ol,
+    ul {
+      margin: 0;
+      padding-inline-start:
+        40px;
+    }
+
+    a {
+      color: #1155cc;
+      font-weight: 600;
+    }
+
+    aside {
+      text-align: center;
+    }
+
+    img {
+      height: 120px
+    }
+
+    h1 {
+      font-size: 24px;
+      font-weight: 600;
+      color: #121212
+    }
+
+    h2 {
+      font-size: 20px;
+      font-weight: 600;
+      color: #121212
+    }
+
+    h3 {
+      font-size: 16px;
+      font-weight: 600;
+      color: #121212;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+      padding: 10px 0;
+    }
+
+    div span p {
+      padding: 0;
+    }
+
   </style>
   <!-- BASE STYLES TO BE SHARED ACROSS ALL TEMPLATES -->
+  <!-- duplicate styles in head as well as inline -->
 </head>
 
 <body style="word-spacing:normal;background-color:#FFFFFF;">
@@ -138,7 +192,7 @@
                                           <tbody>
                                             <tr>
                                               <td style="width:550px;">
-                                                <a href="https://conferences.ted.com/conference/ted2023" target="_blank" style="color: #1155cc; font-weight: 600;">
+                                                <a href="https://conferences.ted.com/conference/tedwomen2023" target="_blank" style="color: #1155cc; font-weight: 600;">
                                                   <img height="auto" src="https://page-builder.ted.com/system/baubles/files/000/010/070/original/tw23_email_header.png?1676136320" style="border: 0; display: block; outline: none; text-decoration: none; height: auto; width: 100%; font-size: 13px;" width="550">
                                                 </a>
                                               </td>
@@ -178,17 +232,17 @@
                   <tbody>
                     <tr>
                       <td align="left" style="font-size:0px;padding:10px 25px;padding-right:0;padding-left:0;word-break:break-word;">
-                        <div style="font-family:Helvetica;font-size:14px;font-weight:400;line-height:1.5;text-align:left;color:#696969;">Dear *|FIRST_NAME|*,</div>
+                        <div style="font-family:Helvetica;font-size:14px;font-weight:400;line-height:1.5;text-align:left;color:#444444;">Dear *|FIRST_NAME|*,</div>
                       </td>
                     </tr>
                     <tr>
                       <td align="left" style="font-size:0px;padding:10px 25px;padding-right:0;padding-left:0;word-break:break-word;">
-                        <div style="font-family:Helvetica;font-size:14px;font-weight:400;line-height:1.5;text-align:left;color:#696969;">Your application for *|CANDIDATE_TYPE_HUMANIZED|* to attend TEDWomen 2023 has been approved. Thank you for joining us!</div>
+                        <div style="font-family:Helvetica;font-size:14px;font-weight:400;line-height:1.5;text-align:left;color:#444444;">Your application for *|CANDIDATE_TYPE_HUMANIZED|* to attend TEDWomen 2023 has been approved. Thank you for joining us!</div>
                       </td>
                     </tr>
                     <tr>
                       <td align="left" style="font-size:0px;padding:10px 25px;padding-right:0;padding-left:0;word-break:break-word;">
-                        <div style="font-family:Helvetica;font-size:14px;font-weight:400;line-height:1.5;text-align:left;color:#696969;">We're looking forward to seeing you in Atlanta, Georgia from Wednesday, October 11, to Friday, October 13, 2023.</div>
+                        <div style="font-family:Helvetica;font-size:14px;font-weight:400;line-height:1.5;text-align:left;color:#444444;">We're looking forward to seeing you in Atlanta, Georgia from Wednesday, October 11, to Friday, October 13, 2023.</div>
                       </td>
                     </tr>
                     <tr>
@@ -198,22 +252,30 @@
                     </tr>
                     <tr>
                       <td align="left" style="font-size:0px;padding:10px 25px;padding-right:0;padding-left:0;word-break:break-word;">
-                        <div style="font-family:Helvetica;font-size:14px;font-weight:400;line-height:1.5;text-align:left;color:#696969;">By submitting this application, you've agreed to our registration terms and conditions. These include:</div>
+                        <div style="font-family:Helvetica;font-size:14px;font-weight:400;line-height:1.5;text-align:left;color:#444444;">By submitting this application, you've agreed to our registration terms and conditions. These include:</div>
                       </td>
                     </tr>
                     <tr>
                       <td align="left" style="font-size:0px;padding:10px 25px;padding-right:0;padding-left:0;word-break:break-word;">
-                        <div style="font-family:Helvetica;font-size:14px;font-weight:400;line-height:1.5;text-align:left;color:#696969;">
+                        <div style="font-family:Helvetica;font-size:14px;font-weight:400;line-height:1.5;text-align:left;color:#444444;">
                           <ol style="margin: 0; padding-inline-start: 40px;">
-                            <li style="padding: 8px 0px; margin: 0;">
-                              <a href="https://goto.ted.com/TEDWomen2023/register/" style="color: #1155cc; font-weight: 600;">Confirm your registration</a>&nbsp;now and pay immediately, then go on to book your hotel at the TED attendee rate, or
+                            <li style="padding: 0px; margin: 0;">
+                              <p style="margin: 0; padding: 10px 0;">
+                                <a href="https://goto.ted.com/TEDWomen2023/register/" style="color: #1155cc; font-weight: 600;">Confirm your registration</a>&nbsp;now and pay immediately, then go on to book your hotel at the TED attendee rate, or
+                              </p>
                             </li>
-                            <li style="padding: 8px 0px; margin: 0;">
-                              <a href="https://goto.ted.com/TEDWomen2023/register/" style="color: #1155cc; font-weight: 600;">Update your payment information within 48 hours</a>, and pay immediately, then go on to book your hotel at the TED attendee rate, or
+                            <li style="padding: 0px; margin: 0;">
+                              <p style="margin: 0; padding: 10px 0;">
+                                <a href="https://goto.ted.com/TEDWomen2023/register/" style="color: #1155cc; font-weight: 600;">Update your payment information within 48 hours</a>, and pay immediately, then go on to book your hotel at the TED attendee rate, or
+                              </p>
                             </li>
-                            <li style="padding: 8px 0px; margin: 0;"> Do nothing, and 48 hours from now, you’ll be charged US $*|PRICE|* to the payment method you provided us upon application. Once the payment goes through, you’ll receive a confirmation email and the link to book your hotel at the TED attendee rate, or </li>
-                            <li style="padding: 8px 0px; margin: 0;">
-                              <a href="https://www.ted.com/dashboard/conferences/tw2023" style="color: #1155cc; font-weight: 600;">Withdraw your application within 48 hours</a> – of course your credit card/bank account will not be charged.
+                            <li style="padding: 0px; margin: 0;">
+                              <p style="margin: 0; padding: 10px 0;"> Do nothing, and 48 hours from now, you’ll be charged US $*|PRICE|* to the payment method you provided us upon application. Once the payment goes through, you’ll receive a confirmation email and the link to book your hotel at the TED attendee rate, or </p>
+                            </li>
+                            <li style="padding: 0px; margin: 0;">
+                              <p style="margin: 0; padding: 10px 0;">
+                                <a href="https://www.ted.com/dashboard/conferences/tw2023" style="color: #1155cc; font-weight: 600;">Withdraw your application within 48 hours</a> – of course your credit card/bank account will not be charged.
+                              </p>
                             </li>
                           </ol>
                         </div>
@@ -221,35 +283,27 @@
                     </tr>
                     <tr>
                       <td align="left" style="font-size:0px;padding:10px 25px;padding-right:0;padding-left:0;word-break:break-word;">
-                        <div style="font-family:Helvetica;font-size:14px;font-style:italic;font-weight:400;line-height:1.5;text-align:left;color:#696969;">Note: Your credit card or bank statement will mark the charge to TED Conferences.</div>
+                        <div style="font-family:Helvetica;font-size:14px;font-style:italic;font-weight:400;line-height:1.5;text-align:left;color:#444444;">Note: Your credit card or bank statement will mark the charge to TED Conferences.</div>
                       </td>
                     </tr>
                     <tr>
                       <td align="left" style="font-size:0px;padding:10px 25px;padding-right:0;padding-left:0;word-break:break-word;">
-                        <div style="font-family:Helvetica;font-size:14px;font-weight:400;line-height:1.5;text-align:left;color:#696969;">In the lead up to TEDWomen 2023, we will continue to update you by email. If your email address changes, or you have any questions, please let us know at <a href="mailto:conferences@ted.com" style="color: #1155cc; font-weight: 600;">conferences@ted.com</a>.</div>
+                        <div style="font-family:Helvetica;font-size:14px;font-weight:400;line-height:1.5;text-align:left;color:#444444;">In the lead up to TEDWomen 2023, we will continue to update you by email. If your email address changes, or you have any questions, please let us know at <a href="mailto:conferences@ted.com" style="color: #1155cc; font-weight: 600;">conferences@ted.com</a>.</div>
                       </td>
                     </tr>
                     <tr>
                       <td align="left" style="font-size:0px;padding:10px 25px;padding-right:0;padding-left:0;word-break:break-word;">
-                        <div style="font-family:Helvetica;font-size:14px;font-weight:400;line-height:1.5;text-align:left;color:#696969;">We look forward to welcoming you for TEDWomen!</div>
+                        <div style="font-family:Helvetica;font-size:14px;font-weight:400;line-height:1.5;text-align:left;color:#444444;">We look forward to welcoming you for TEDWomen!</div>
                       </td>
                     </tr>
                     <tr>
                       <td align="left" style="font-size:0px;padding:10px 25px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;word-break:break-word;">
-                        <div style="font-family:Helvetica;font-size:14px;font-weight:400;line-height:1.5;text-align:left;color:#696969;">Very best wishes,</div>
+                        <div style="font-family:Helvetica;font-size:14px;font-weight:400;line-height:1.5;text-align:left;color:#444444;">Very best wishes,</div>
                       </td>
                     </tr>
                     <tr>
                       <td align="left" style="font-size:0px;padding:10px 25px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;word-break:break-word;">
-                        <div style="font-family:Helvetica;font-size:14px;font-weight:700;line-height:1.5;text-align:left;color:#696969;">The TED Team</div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td align="center" style="font-size:0px;padding:10px 25px;padding-top:32px;padding-right:0;padding-left:0;word-break:break-word;">
-                        <p style="border-top:solid 1px #ECECEC;font-size:1px;margin:0px auto;width:100%;">
-                        </p>
-                        <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 1px #ECECEC;font-size:1px;margin:0px auto;width:600px;" role="presentation" width="600px" ><tr><td style="height:0;line-height:0;"> &nbsp;
-</td></tr></table><![endif]-->
+                        <div style="font-family:Helvetica;font-size:14px;font-weight:700;line-height:1.5;text-align:left;color:#444444;">The TED Team</div>
                       </td>
                     </tr>
                   </tbody>
@@ -278,8 +332,8 @@
                         <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;margin:0px;">
                           <tbody>
                             <tr>
-                              <td align="center" style="font-size:0px;padding:10px 25px;padding-right:0;padding-bottom:24px;padding-left:0;word-break:break-word;">
-                                <p style="border-top:solid 1px #ECECEC;font-size:1px;margin:0px auto;width:100%;">
+                              <td align="center" style="font-size:0px;padding:10px 25px;padding-right:0;padding-bottom:8px;padding-left:0;word-break:break-word;">
+                                <p style="padding: 10px 0; border-top: solid 1px #ECECEC; font-size: 1px; margin: 0px auto; width: 100%;">
                                 </p>
                                 <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 1px #ECECEC;font-size:1px;margin:0px auto;width:600px;" role="presentation" width="600px" ><tr><td style="height:0;line-height:0;"> &nbsp;
 </td></tr></table><![endif]-->
@@ -360,7 +414,7 @@
                           <tbody>
                             <tr>
                               <td align="center" style="font-size:0px;padding:10px 25px;padding-top:12px;padding-right:0;padding-left:0;word-break:break-word;">
-                                <p style="border-top:solid 1px #ECECEC;font-size:1px;margin:0px auto;width:100%;">
+                                <p style="padding: 10px 0; border-top: solid 1px #ECECEC; font-size: 1px; margin: 0px auto; width: 100%;">
                                 </p>
                                 <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 1px #ECECEC;font-size:1px;margin:0px auto;width:600px;" role="presentation" width="600px" ><tr><td style="height:0;line-height:0;"> &nbsp;
 </td></tr></table><![endif]-->
