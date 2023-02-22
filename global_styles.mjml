@@ -68,7 +68,7 @@
 </mj-attributes>
 <mj-style inline="inline">
   li { padding: 0px; margin: 0;} ol, ul { margin:0; padding-inline-start:
-  40px; } a { color:#1155cc; font-weight: 600; } aside { text-align: center; } img { height: 120px } h1
+  40px; } a { color:#1155cc; font-weight: 600; } aside { text-align: center; } img { height: 120px, min-height: 120px; object-fit: cover; } h1
   {font-size:24px; font-weight:600; color:#121212} h2 {font-size:20px;
   font-weight:600; color:#121212} h3 {font-size:16px; font-weight:600;
   color:#121212; margin:0;} p { margin: 0; padding: 10px 0; }

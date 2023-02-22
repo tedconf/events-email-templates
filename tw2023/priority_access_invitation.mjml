@@ -59,12 +59,14 @@
 
         <mj-text>
           <ul style="list-style: none; padding-inline-start: 16px">
+          
             <li>
               <p>
                 <span style="font-weight: 600">Log into TED.com</span>. Use your TED.com
                 account associated with *|EMAIL|* to sign in and register.
               </p>
             </li>
+
             <li>
               <div id="1_ct_deadline" mc:edit="1_ct_deadline">
                 <p style="margin: 0; padding: 10px 0;">
@@ -73,9 +75,11 @@
                 </p>
               </div>
             </li>
+
             <li>
               <div id="1_ct_membership_details" mc:edit="1_ct_membership_details"></div>
             </li>
+
             <li>
               <div id="1_ct_arrival" mc:edit="1_ct_arrival">
                 <p style="margin: 0; padding: 10px 0;">
@@ -87,6 +91,7 @@
                 </p>
               </div>
             </li>
+
             <li>
               <div id="1_ct_hotel_preinfo" mc:edit="1_ct_hotel_preinfo">
                 <p style="margin: 0; padding: 10px 0;">
@@ -98,6 +103,19 @@
                     href="https://www.google.com/url?q=https://www.ted.com/dashboard/conferences/tedwomen2023/hotels"
                     >Reserve your hotel now.</a
                   >
+                </p>
+              </div>
+            </li>
+
+
+            <li id="1_ct_health_safety" mc:edit="1_ct_health_safety">
+              <div id="1_ct_deadline" mc:edit="1_ct_deadline">
+                <p style="margin: 0; padding: 10px 0;">
+                  <span style="font-weight: 600">Your health and safety.</span>
+                  So we can gather safely, there may be health and safety protocols
+                  that will need to be followed by everyone attending. This may include
+                  vaccination requirements and clearing a COVID-19 test on arrival.
+                  We’ll share specifics closer to the event.
                 </p>
               </div>
             </li>
