@@ -58,17 +58,18 @@
   <mj-class name="text-white" color="#FFFFFF" />
   <mj-class name="text-blue" color="#1155cc" />
   <!-- Background Colors -->
-  <mj-class name="bg-black" background-color="#121212" />
+  <mj-class name="bg-black" background-color="#000000" />
   <mj-class name="bg-white" background-color="#FFFFFF" />
   <mj-class name="bg-t2023-blue" background-color="#95d4e9" />
   <!-- Utilities -->
+  <mj-class name="header-img" height="120px" object-fit="contain" />
   <mj-class name="py0" padding-top="0" padding-bottom="0" />
-  <mj-class name="p0" padding="0" />
+  <mj-class name="p0" padding-top="0" padding-bottom="0" padding-left="0" padding-right="0" />
   <!-- END CLASS DEFINITIONS -->
 </mj-attributes>
 <mj-style inline="inline">
   li { padding: 0px; margin: 0;} ol, ul { margin:0; padding-inline-start:
-  40px; } a { color:#1155cc; font-weight: 600; } aside { text-align: center; } img { height: 120px, min-height: 120px; object-fit: cover; } h1
+  40px; } a { color:#1155cc; font-weight: 600; } aside { text-align: center; } img { height: 120px; object-fit: contain } h1
   {font-size:24px; font-weight:600; color:#121212} h2 {font-size:20px;
   font-weight:600; color:#121212} h3 {font-size:16px; font-weight:600;
   color:#121212; margin:0;} p { margin: 0; padding: 10px 0; }
@@ -76,7 +77,7 @@
 <!-- duplicate styles in head as well as inline -->
 <mj-style>
   li { padding: 0px; margin: 0;} ol, ul { margin:0; padding-inline-start:
-  40px; } a { color:#1155cc; font-weight: 600; } aside { text-align: center; } img { height: 120px } h1
+  40px; } a { color:#1155cc; font-weight: 600; } aside { text-align: center; } img { height: 120px; object-fit: contain } h1
   {font-size:24px; font-weight:600; color:#121212} h2 {font-size:20px;
   font-weight:600; color:#121212} h3 {font-size:16px; font-weight:600;
   color:#121212; margin:0;} p { margin: 0; padding: 10px 0; } div span p { padding: 0;}

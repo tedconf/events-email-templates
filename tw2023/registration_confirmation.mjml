@@ -12,8 +12,16 @@
 
         <mj-text>
           <span mc:edit="2_ct_confirm_opener">
-            This email confirms your *|CANDIDATE TYPE|* registration for
-            TEDWomen 2023. Thank you for joining us! We're looking forward to
+            This email confirms your *|ATTENDEE_TYPE_HUMANIZED|* registration for
+            TEDWomen 2023.
+            *|IF:PRICE=0|*
+            Thank you for joining us!
+            *|ELSE:|*
+            Thank you for joining us — and for your support of
+            <a href="https://www.ted.com/attend/conferences#h2--initiatives-funded-by-a-ted-conference-membership">TED’s programs and initiatives</a>!
+            *|END:IF|*
+            
+            We're looking forward to
             seeing you in Atlanta, Georgia, October 11–13, 2023.
           </span>
         </mj-text>
@@ -39,10 +47,10 @@
                 short walk from the conference venue. Rooms are limited and
                 first come first served.
                 <a
-                  href="https://www.ted.com/dashboard/conferences/tedwomen2023/hotels"
+                  href="https://www.ted.com/dashboard/conferences/tw2023/hotels"
                 >
                   Reserve your hotel now</a
-                >.
+                >
               </p>
             </li>
             <li>
@@ -50,9 +58,9 @@
                 <span style="font-weight: 600">See your next steps.</span>
                 Your conference dashboard links to everything you need to know
                 to prepare for TEDWomen. Log in with *|EMAIL|*.
-                <a href="https://www.ted.com/dashboard/conferences/tedwomen2023"
+                <a href="https://www.ted.com/dashboard/conferences/tw2023"
                   >View your conference dashboard</a
-                >.
+                >
               </p>
             </li>
             <li>

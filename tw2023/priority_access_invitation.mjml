@@ -40,6 +40,7 @@
         <div id="1_ct_membership_desc" mc:edit="1_ct_membership_desc"></div>
         <div id="1_ct_group" mc:edit="1_ct_group"></div>
         <div id="1_ct_donor_desc" mc:edit="1_ct_donor_desc"></div>
+        <div id="1_ct_tax_info" mc:edit="1_ct_tax_info"></div>
       </mj-raw>
 
       <mj-column>
@@ -47,11 +48,8 @@
         <mj-button mj-class="text-white" align="left"
           ><a href="https://goto.ted.com/tw2023/register" style="color: #ffffff; text-decoration: none;">Register Now</a>
         </mj-button>
+        <mj-spacer height="16px" />
       </mj-column>
-
-      <mj-raw>
-        <div id="1_ct_tax_info" mc:edit="1_ct_tax_info"></div>
-      </mj-raw>
 
       <mj-column>
 
@@ -96,13 +94,7 @@
               <div id="1_ct_hotel_preinfo" mc:edit="1_ct_hotel_preinfo">
                 <p style="margin: 0; padding: 10px 0;">
                   <span style="font-weight: 600">Booking your hotel.</span>
-                  Take advantage of TED’s group rate at our partner hotels; all a
-                  short walk from the conference venue. Rooms are limited and
-                  first come first served.
-                  <a
-                    href="https://www.google.com/url?q=https://www.ted.com/dashboard/conferences/tedwomen2023/hotels"
-                    >Reserve your hotel now.</a
-                  >
+                  After you register, you’ll receive info on how to book at one of our partner hotels.
                 </p>
               </div>
             </li>
