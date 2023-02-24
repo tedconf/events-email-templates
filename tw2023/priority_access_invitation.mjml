@@ -36,6 +36,7 @@
       </mj-column>
 
       <mj-raw>
+        <div id="1_ct_para3" mc:edit="1_ct_para3"></div>
         <div id="1_ct_invite" mc:edit="1_ct_invite"></div>
         <div id="1_ct_membership_desc" mc:edit="1_ct_membership_desc"></div>
         <div id="1_ct_group" mc:edit="1_ct_group"></div>
