@@ -12,27 +12,28 @@
 
         <mj-text>
           <span id="1_ct_para1" mc:edit="1_ct_para1">
-            Early registration for TEDWomen 2023 is now open! Join us in
-            Atlanta, Georgia from Wednesday, October 11 to Friday, October 13,
-            2023.
+            Early registration for
+            <a href="https://conferences.ted.com/conference/tedwomen2023"
+              >TEDWomen 2023</a
+            >
+            is now open! Join us in Atlanta, Georgia from Wednesday, October 11
+            to Friday, October 13, 2023.
           </span>
         </mj-text>
 
         <mj-text>
           <span id="1_ct_para2" mc:edit="1_ct_para2">
-            <h3>TEDWomen 2023: Two Steps Forward</h3>
-            We all know that when it comes to global gender equity, there's
-            still so much work to be done. After all, the playing field is far
-            from level — and the past few years have seen so many women forced
-            to step back or out altogether. It's time to reset, to rethink, to
-            collectively imagine different ways forward. As such, this year's
-            TEDWomen conference will joyfully celebrate those taking bold
-            strides into the future, those working unapologetically to make big
-            dreams become reality. Come join us for this journey that begins
-            with not one but ... Two Steps Forward.
+            This year’s theme is
+            <span style="font-weight: 600">Two Steps Forward</span>. Because
+            while we all know that there’s still so much work to be done when it
+            comes to global gender equity, this conference will joyfully
+            celebrate those taking bold strides into the future. We’ll spotlight
+            those working unapologetically to make big dreams become reality.
+            Whether building new models of equity and inclusion or blazing
+            trails as pioneers, this year's speakers demonstrate luminous new
+            thinking and ideas designed to enchant, uplift and inspire us all.
           </span>
         </mj-text>
-
       </mj-column>
 
       <mj-raw>
@@ -47,28 +48,31 @@
       <mj-column>
         <mj-spacer height="16px" />
         <mj-button mj-class="text-white" align="left"
-          ><a href="https://goto.ted.com/tw2023/register" style="color: #ffffff; text-decoration: none;">Register Now</a>
+          ><a
+            href="https://goto.ted.com/tw2023/register"
+            style="color: #ffffff; text-decoration: none"
+            >Register Now</a
+          >
         </mj-button>
         <mj-spacer height="16px" />
       </mj-column>
 
       <mj-column>
-
         <mj-text mj-class="h3">Some things to note:</mj-text>
 
         <mj-text>
           <ul style="list-style: none; padding-inline-start: 16px">
-          
             <li>
               <p>
-                <span style="font-weight: 600">Log into TED.com</span>. Use your TED.com
-                account associated with *|EMAIL|* to sign in and register.
+                <span style="font-weight: 600">Log into TED.com</span>. Use your
+                TED.com account associated with *|EMAIL|* to sign in and
+                register.
               </p>
             </li>
 
             <li>
               <div id="1_ct_deadline" mc:edit="1_ct_deadline">
-                <p style="margin: 0; padding: 10px 0;">
+                <p style="margin: 0; padding: 10px 0">
                   <span style="font-weight: 600">Take action soon.</span>
                   Complete your registration by *|TODAY_PLUS_14_DAYS|*.
                 </p>
@@ -76,39 +80,43 @@
             </li>
 
             <li>
-              <div id="1_ct_membership_details" mc:edit="1_ct_membership_details"></div>
+              <div
+                id="1_ct_membership_details"
+                mc:edit="1_ct_membership_details"
+              ></div>
             </li>
 
             <li>
               <div id="1_ct_arrival" mc:edit="1_ct_arrival">
-                <p style="margin: 0; padding: 10px 0;">
+                <p style="margin: 0; padding: 10px 0">
                   <span style="font-weight: 600">Mark your calendar.</span>
-                  For the full TEDWomen experience, plan to arrive late morning on
-                  Wednesday, October 11, 2023 to join one of our workshops. Our
-                  first speaker session starts at 5pm. The conference concludes in
-                  the early afternoon of Friday, October 13.
+                  For the full TEDWomen experience, plan to arrive late morning
+                  on Wednesday, October 11, 2023 to join one of our workshops.
+                  Our first speaker session starts at 5pm. The conference
+                  concludes in the early afternoon of Friday, October 13.
                 </p>
               </div>
             </li>
 
             <li>
               <div id="1_ct_hotel_preinfo" mc:edit="1_ct_hotel_preinfo">
-                <p style="margin: 0; padding: 10px 0;">
+                <p style="margin: 0; padding: 10px 0">
                   <span style="font-weight: 600">Booking your hotel.</span>
-                  After you register, you’ll receive info on how to book at one of our partner hotels.
+                  After you register, you’ll receive info on how to book at one
+                  of our partner hotels.
                 </p>
               </div>
             </li>
 
-
             <li id="1_ct_health_safety" mc:edit="1_ct_health_safety">
               <div id="1_ct_deadline" mc:edit="1_ct_deadline">
-                <p style="margin: 0; padding: 10px 0;">
+                <p style="margin: 0; padding: 10px 0">
                   <span style="font-weight: 600">Your health and safety.</span>
-                  So we can gather safely, there may be health and safety protocols
-                  that will need to be followed by everyone attending. This may include
-                  vaccination requirements and clearing a COVID-19 test on arrival.
-                  We’ll share specifics closer to the event.
+                  So we can gather safely, there may be health and safety
+                  protocols that will need to be followed by everyone attending.
+                  This may include vaccination requirements and clearing a
+                  COVID-19 test on arrival. We’ll share specifics closer to the
+                  event.
                 </p>
               </div>
             </li>
@@ -137,7 +145,6 @@
         </mj-text>
 
         <mj-text mj-class="py0">+ the TED Team </mj-text>
-
       </mj-column>
     </mj-section>
 

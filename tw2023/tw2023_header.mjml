@@ -3,7 +3,7 @@
   <mj-column mj-class="bg-black p0">
     <mj-image
       mj-class="bg-black p0 header-img"
-      href="https://conferences.ted.com/"
+      href="https://conferences.ted.com/conference/tedwomen2023"
       src="https://page-builder.ted.com/system/baubles/files/000/010/075/original/tw23_email_header.png"
     />
   </mj-column>
