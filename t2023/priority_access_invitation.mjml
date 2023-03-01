@@ -24,8 +24,8 @@
             <h3>TED2023 is all about possibilities...</h3>
             Much of today’s public conversation is eaten up by zero-sum battles
             between divided groups. But the world doesn’t have to be zero sum.
-            Next year together we will explore a strange and beautiful space
-            called the adjacent possible.
+            Together we will explore a strange and beautiful space called the
+            adjacent possible.
           </span>
         </mj-text>
 
@@ -44,40 +44,87 @@
         </mj-text>
       </mj-column>
 
-    <mj-raw>
-      <div id="1_ct_invite" mc:edit="1_ct_invite"></div>
-      <div id="1_ct_membership_desc" mc:edit="1_ct_membership_desc"></div>
-      <div id="1_ct_donor_desc" mc:edit="1_ct_donor_desc"></div>
-      <div id="1_ct_patron_desc" mc:edit="1_ct_patron_desc"></div>
-      <div id="1_ct_tax_info" mc:edit="1_ct_tax_info"></div>
-    </mj-raw>
-
+      <mj-raw>
+        <div id="1_ct_invite" mc:edit="1_ct_invite"></div>
+        <div id="1_ct_membership_desc" mc:edit="1_ct_membership_desc"></div>
+        <div id="1_ct_donor_desc" mc:edit="1_ct_donor_desc"></div>
+        <div id="1_ct_patron_desc" mc:edit="1_ct_patron_desc"></div>
+        <div id="1_ct_tax_info" mc:edit="1_ct_tax_info"></div>
+      </mj-raw>
 
       <mj-column>
         <mj-spacer height="16px" />
-
-        <mj-button mj-class="text-white" align="left">
-          <a href="https://goto.ted.com/t2023/register" style="color: #ffffff; text-decoration: none;">Register Now</a>
+        <mj-text
+          css-class="
+          *|IF:HAS_TEDCOM_ACCOUNT=1|*
+          hidden
+          *|END:IF|*
+          "
+        >
+          Please follow this quick, three-step process to register
+          <ol>
+            <li>
+              <p>
+                <a
+                  href="https://auth.ted.com/users/new?referer=https://goto.ted.com/t2023/register&user[email]=*%7CEMAIL%7C*&user[first_name]=*%7CFIRST_NAME%7C*&user[last_name]=*%7CLAST_NAME%7C*"
+                  style="font-weight: 600"
+                  >Log into TED.com</a
+                >. Enter your email (*|EMAIL|*), create a password (keep this
+                handy!), and follow the instructions to create your account.
+              </p>
+            </li>
+            <li>
+              <p>
+                Check your inbox for a confirmation email from TED, and click
+                "Verify my email address" to confirm your TED.com account
+              </p>
+            </li>
+            <li>
+              <p>
+                Jump back to this invitation email and
+                <a
+                  href="https://goto.ted.com/t2023/register"
+                  style="font-weight: 600"
+                  >register for TED2023</a
+                >
+              </p>
+            </li>
+          </ol>
+        </mj-text>
+        <mj-button
+          mj-class="text-white"
+          align="left"
+          css-class="
+          *|IF:HAS_TEDCOM_ACCOUNT=0|*
+          hidden
+          *|END:IF|*
+          "
+          ><a
+            href="https://goto.ted.com/t2023/register"
+            style="color: #ffffff; text-decoration: none"
+            >Register Now</a
+          >
         </mj-button>
 
         <mj-spacer height="16px" />
+      </mj-column>
 
+      <mj-column>
         <mj-text mj-class="h3">Some things to note:</mj-text>
 
         <mj-text>
-
           <ul style="list-style: none; padding-inline-start: 16px">
-
             <li>
               <p>
                 <span style="font-weight: 600">Log into TED.com</span>. Use your
-                TED.com account associated with *|EMAIL|* to sign in and register.
+                TED.com account associated with *|EMAIL|* to sign in and
+                register.
               </p>
             </li>
 
             <li>
               <div id="1_ct_deadline" mc:edit="1_ct_deadline">
-                <p style="margin: 0; padding: 10px 0;">
+                <p style="margin: 0; padding: 10px 0">
                   <span style="font-weight: 600">Take action soon.</span>
                   Complete your registration by
                   <span style="font-weight: 600">*|TODAY_PLUS_14_DAYS|*</span>.
@@ -86,7 +133,10 @@
             </li>
 
             <li>
-              <div id="1_ct_membership_details" mc:edit="1_ct_membership_details"></div>
+              <div
+                id="1_ct_membership_details"
+                mc:edit="1_ct_membership_details"
+              ></div>
             </li>
 
             <li>
@@ -95,12 +145,13 @@
 
             <li id="1_ct_health_safety" mc:edit="1_ct_health_safety">
               <div id="1_ct_deadline" mc:edit="1_ct_deadline">
-                <p style="margin: 0; padding: 10px 0;">
+                <p style="margin: 0; padding: 10px 0">
                   <span style="font-weight: 600">Your health and safety.</span>
-                  So we can gather safely, there may be health and safety protocols
-                  that will need to be followed by everyone attending. This may include
-                  vaccination requirements and clearing a COVID-19 test on arrival.
-                  We’ll share specifics closer to the event.
+                  So we can gather safely, there may be health and safety
+                  protocols that will need to be followed by everyone attending.
+                  This may include vaccination requirements and clearing a
+                  COVID-19 test on arrival. We’ll share specifics closer to the
+                  event.
                 </p>
               </div>
             </li>
@@ -116,9 +167,7 @@
             <li>
               <div id="1_ct_reserve" mc:edit="1_ct_reserve"></div>
             </li>
-
           </ul>
-          
         </mj-text>
 
         <mj-text>

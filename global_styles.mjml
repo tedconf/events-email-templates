@@ -64,21 +64,30 @@
   <!-- Utilities -->
   <mj-class name="header-img" height="120px" object-fit="contain" />
   <mj-class name="py0" padding-top="0" padding-bottom="0" />
-  <mj-class name="p0" padding-top="0" padding-bottom="0" padding-left="0" padding-right="0" />
+  <mj-class
+    name="p0"
+    padding-top="0"
+    padding-bottom="0"
+    padding-left="0"
+    padding-right="0"
+  />
   <!-- END CLASS DEFINITIONS -->
 </mj-attributes>
 <mj-style inline="inline">
-  li { padding: 0px; margin: 0;} ol, ul { margin:0; padding-inline-start:
-  40px; } a { color:#1155cc; font-weight: 600; } aside { text-align: center; } img { height: 120px; object-fit: contain } h1
-  {font-size:24px; font-weight:600; color:#121212} h2 {font-size:20px;
-  font-weight:600; color:#121212} h3 {font-size:16px; font-weight:600;
-  color:#121212; margin:0;} p { margin: 0; padding: 10px 0; }
+  li { padding: 0px; margin: 0;} ol, ul { margin:0; padding-inline-start: 40px;
+  } a { color:#1155cc; font-weight: 600; } aside { text-align: center; } img {
+  height: 120px; object-fit: contain } h1 {font-size:24px; font-weight:600;
+  color:#121212} h2 {font-size:20px; font-weight:600; color:#121212} h3
+  {font-size:16px; font-weight:600; color:#121212; margin:0;} p { margin: 0;
+  padding: 10px 0; }
 </mj-style>
 <!-- duplicate styles in head as well as inline -->
 <mj-style>
-  li { padding: 0px; margin: 0;} ol, ul { margin:0; padding-inline-start:
-  40px; } a { color:#1155cc; font-weight: 600; } aside { text-align: center; } img { height: 120px; object-fit: contain } h1
-  {font-size:24px; font-weight:600; color:#121212} h2 {font-size:20px;
-  font-weight:600; color:#121212} h3 {font-size:16px; font-weight:600;
-  color:#121212; margin:0;} p { margin: 0; padding: 10px 0; } div span p { padding: 0;}
+  li { padding: 0px; margin: 0;} ol, ul { margin:0; padding-inline-start: 40px;
+  } a { color:#1155cc; font-weight: 600; } aside { text-align: center; } img {
+  height: 120px; object-fit: contain } h1 {font-size:24px; font-weight:600;
+  color:#121212} h2 {font-size:20px; font-weight:600; color:#121212} h3
+  {font-size:16px; font-weight:600; color:#121212; margin:0;} p { margin: 0;
+  padding: 10px 0; } div span p { padding: 0;} .hidden { display: none; opacity:
+  0; font-size: 0; height: 0; width: 0;}
 </mj-style>

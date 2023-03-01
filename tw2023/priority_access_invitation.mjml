@@ -47,13 +47,58 @@
 
       <mj-column>
         <mj-spacer height="16px" />
-        <mj-button mj-class="text-white" align="left"
+        <mj-text
+          css-class="
+          *|IF:HAS_TEDCOM_ACCOUNT=1|*
+          hidden
+          *|END:IF|*
+          "
+        >
+          Please follow this quick, three-step process to register
+          <ol>
+            <li>
+              <p>
+                <a
+                  href="https://auth.ted.com/users/new?referer=https://goto.ted.com/tw2023/register&user[email]=*%7CEMAIL%7C*&user[first_name]=*%7CFIRST_NAME%7C*&user[last_name]=*%7CLAST_NAME%7C*"
+                  style="font-weight: 600"
+                  >Log into TED.com</a
+                >. Enter your email (*|EMAIL|*), create a password (keep this
+                handy!), and follow the instructions to create your account.
+              </p>
+            </li>
+            <li>
+              <p>
+                Check your inbox for a confirmation email from TED, and click
+                "Verify my email address" to confirm your TED.com account
+              </p>
+            </li>
+            <li>
+              <p>
+                Jump back to this invitation email and
+                <a
+                  href="https://goto.ted.com/tw2023/register"
+                  style="font-weight: 600"
+                  >register for TEDWomen 2023</a
+                >
+              </p>
+            </li>
+          </ol>
+        </mj-text>
+        <mj-button
+          mj-class="text-white"
+          align="left"
+          css-class="
+          *|IF:HAS_TEDCOM_ACCOUNT=0|*
+          hidden
+          *|END:IF|*
+          "
           ><a
             href="https://goto.ted.com/tw2023/register"
             style="color: #ffffff; text-decoration: none"
             >Register Now</a
           >
         </mj-button>
+
         <mj-spacer height="16px" />
       </mj-column>
 
