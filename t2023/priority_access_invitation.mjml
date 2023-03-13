@@ -143,19 +143,6 @@
               <div id="1_ct_hotel_preinfo" mc:edit="1_ct_hotel_preinfo"></div>
             </li>
 
-            <li id="1_ct_health_safety" mc:edit="1_ct_health_safety">
-              <div id="1_ct_deadline" mc:edit="1_ct_deadline">
-                <p style="margin: 0; padding: 10px 0">
-                  <span style="font-weight: 600">Your health and safety.</span>
-                  So we can gather safely, there may be health and safety
-                  protocols that will need to be followed by everyone attending.
-                  This may include vaccination requirements and clearing a
-                  COVID-19 test on arrival. We’ll share specifics closer to the
-                  event.
-                </p>
-              </div>
-            </li>
-
             <li>
               <div id="1_ct_attending_with" mc:edit="1_ct_attending_with"></div>
             </li>
